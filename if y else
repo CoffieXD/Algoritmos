@@ -1,0 +1,17 @@
+  //if sencillo
+
+    if ( admitido == true) { alert ("Se ha admitido el valor"); }
+
+ 
+
+   //if else sencillo
+
+            if ( admitido == true) {
+
+           alert ("Se ha admitido el valor");
+
+        } else {
+
+            alert ("No se ha admitido el valor");
+
+        }
