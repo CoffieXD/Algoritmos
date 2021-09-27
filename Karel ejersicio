@@ -1,0 +1,75 @@
+<script>
+tstartprogram{
+  define-new-west-east instruction as start
+        while not-oriented-west make start
+            turn-left;
+        end;
+    end;
+    define-new-top-wall-instruction as start
+        while front-free make start
+            get moving;
+        end;
+    end;
+    define-new-half-turn instruction as start
+        turn-left;
+        turn-left;
+    end;
+    define-new-instruction see-to-initial-post as start
+        east-west;
+        topa-wall;
+        half-turn;
+    end;
+    define-new-statement collect-all as start
+        while next-to-buzzer make start
+            catch-buzzer;
+        end;
+    end;
+    define-new-instruction collect-buzzers as start
+        while front-free make start
+            collect-everything;
+            get moving;
+        end;
+        collect-everything;
+    end;
+    define-new-instruction upload as start
+        turn-left;
+        while right-locked make start
+            get moving;
+        end;
+    end;
+    define-new-instruction turn-right as start
+        repeat 3 times start
+            turn-left;
+        end;
+    end;
+    define-new-cross instruction as start
+        turn-right;
+        get moving;
+        turn-right;
+    end;
+    define-new-instruction go down as start
+        while front-free make start
+            get moving;
+        end;
+    end;
+    define-new-jump-balla instruction as start
+        upload;
+        Cross;
+        go down;
+    end;
+    define-new-instruction leave-buzzers as start
+        while some-buzzer-in-the-backpack make start
+            lets-buzzer;
+        end;
+    end;
+    start-execution
+        go-to-post-initial;
+        collector-buzzers;
+        jump-balla;
+        let-buzzers;
+        turn off;
+    ends-execution
+}
+    
+end-program
+</script>
