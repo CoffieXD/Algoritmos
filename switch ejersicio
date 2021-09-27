@@ -1,0 +1,45 @@
+//switch(//condición que devuelve un valor){
+case X:
+    //instrucciones;
+    //break;
+
+case Y:
+    //instrucciones;
+    //break;
+
+default:
+   //instrucciones;
+}//
+
+
+<script>
+var fecha = new Date();
+var dia = fecha.getDay();
+var traduccion = "";
+
+switch(dia){
+	case 0:
+		traduccion = "domingo";
+		break;
+	case 1:
+		traduccion = "lunes";
+		break;			
+	case 2:
+		traduccion = "martes";
+		break;			
+	case 3:
+		traduccion = "miércoles";
+		break;			
+	case 4:
+		traduccion = "jueves";
+		break;			
+	case 5:
+		traduccion = "viernes";
+		break;			
+	case 6:	
+		traduccion = "sábado";
+		break;	
+	default:
+		traduccion = "error";					
+}
+</script>
