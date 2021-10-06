@@ -1,0 +1,24 @@
+var saludo = "Hola";
+var n1 = 10
+var n2 = 5
+switch(Saludo){
+    case "Hola";
+    if (n1 < n2){
+        console.log("N1 es menor");
+    }else{
+        console.log("N2 es menor");
+    }
+    break;case"perro":
+    console.log("Jugar con el perro");
+    break;
+    Default;
+    console.log("Otro");
+    break;
+}
+var dia = Martes
+var tarde= Martes
+if (dia == "Lavar Ropa"){  
+    console.log("Martes se lava ropa");
+}else{
+    console.log("es tarde no se lava ropa");
+}
