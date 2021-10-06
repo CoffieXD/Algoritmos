@@ -1,0 +1,44 @@
+
+<script>
+    var arreglo = ["Lunes", "Martes",5.5,6,7,8,6];
+    for(var x=0; arreglo< arreglo.length; x++ ){
+        console.log(arreglo[x]);
+    }
+
+
+   var humano = {
+    nombre : "Mario",
+    apelldido : "Torrres",
+    casado : false,
+    "saludo" : "Hola" 
+} 
+console.log(humano);
+console.log(humano["casado"]);
+
+var contador = 2;
+    for(let i=5;i<=7;i++){
+    console.log(i);
+    console.log("Valor de contador: "+contador)
+    console.log()
+}
+ 
+console.log("Suma de numeros del 1 al 10: "+contador);
+
+ /*   musica = 1;
+        for(let i=1;i<=10;i++){
+        console.log(i);
+        console.log("Tipo de musica: "+musica)
+        console.log()
+    }
+
+  console.log("Tipo de Musica: "+musica);
+
+
+
+  /*  numero = 1
+    for(let i=100;i>=1;i--){
+    console.log(i);
+    console.log()
+    }
+    
+</script>
