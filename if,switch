@@ -1,0 +1,43 @@
+var n1 = 10;
+var n2 = 5;
+var operacion = "suma";
+var total = 0;
+
+if(operacion == "suma"){
+    total = n1 + n2;
+}
+
+if(operacion == "resta"){
+    total = n1 - n2;
+}
+
+if(operacion == "multiplicacion"){
+    total = n1 * n2;
+}
+
+if(operacion == "division"){
+    total = n1 / n2;
+}
+
+console.log(total);
+
+
+var operacion = "suma";
+
+switch(operacion){
+    case "suma":
+        console.log("La operacion es suma");
+    break;
+    case "resta":
+        console.log("La operacion es resta");
+    break;
+    case "multiplicacion":
+        console.log("La operacion es multiplicacion");
+    break;
+    case "division":
+        console.log("La operacion es division");
+    break;
+    default:
+        console.log("No se reconoce la operacion");
+    break;
+}
