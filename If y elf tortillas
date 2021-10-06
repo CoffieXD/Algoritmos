@@ -1,0 +1,15 @@
+
+var Clima = "lluvia";
+var Personas = "Fila"
+console.log("Paso 1: Verificara clima");
+if (lluvia = "usar paraguas")
+consola.log("Paso dos: salir de la casa") 
+}else{
+consola.log("Paso 3: caminar a la tortilleria")
+}
+consola.lo("Paso 4: llegar a la tortilleria")
+if (Fila = "Esperar") 
+{consola.lo("Paso 5: pedir tortilas")
+} else {
+}
+consola.log("Paso 6: comprar tortillas")
