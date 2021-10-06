@@ -1,0 +1,10 @@
+}
+
+public void estructuraWhile() {
+System.out.println("estructuraWhile");
+
+while (1 < 100) {
+a++;
+System.out.println("Valor " + 1);
+
+}
