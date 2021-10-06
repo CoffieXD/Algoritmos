@@ -1,0 +1,90 @@
+/**
+ * Imprimir todos los digitos decimales del 0 al 9, utilizando una repetición
+ */
+
+let contador = 1;
+
+for(let contador=1;contador<=10;i=contador+3){
+    console.log(contador);
+    console.log("Valor de contador: "+contador)
+    
+}
+ console.log(i);
+    console.log(contador+i)
+console.log("Suma de numeros del 1 al 10: "+contador);
+
+/**
+ * for(let i=10;i>=1;i--){
+    console.log(i);
+}
+ */
+  //var n = 0;
+
+    
+
+    //for( var n=1; n<=20; n=n+3){
+
+    
+
+    //console.log(n);
+ //var i = 100; //contador
+<script>
+    var letras ="abcdefghijklmnopqrstuvwxyz|"
+    function generateRandom(len) 
+    {
+      let randomPass = '';
+      let wordChars = "abcdefghijklmnopqrstuvwxyz|";
+  
+     for(let i = 0; i < len; i++) {
+      randomPass += wordChars.charAt(Math.floor(Math.random() * wordChars.length));
+      console.log("randomPass en for: ", randomPass);
+      console.log("randomPass en for: ", randomPass);
+    }
+    console.log(randomPass)
+  }
+ 
+ generateRandom(8);
+</script>
+<script>
+   function generateRandom(len) 
+   {
+     let palabras = '';
+     let abecedario = "ABCDEFGHIJKLMNOPQRSTUWXYZ";
+ 
+    for(let i = 0; i < len; i++) {
+     palabras += abecedario.charAt(Math.floor(Math.random() * abecedario.length));
+     console.log("palabras en for: ", palabras);
+     console.log("palabras en for: ", palabras);
+   }
+   console.log(palabras)
+ }
+
+generateRandom(10);
+</script>
+   
+
+   //while(i >= 0){
+
+
+
+   //console.log(i);
+
+  // i--;  // Incremento / Decremento
+
+//}
+
+
+
+
+// convertir el numero en entero 
+
+//var num = parseInt(prompt("Ingrese un numero"))
+
+//while(num == 0 ){
+
+
+
+    //num = parseInt(prompt("ingrese un numero"));
+
+//}
+
