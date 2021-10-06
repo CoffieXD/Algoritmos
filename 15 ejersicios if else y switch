@@ -1,0 +1,160 @@
+</script>
+
+<script>
+  var lluvia = Dia;
+  var Auto = rojo;
+  var Martes = Fiesta;
+  var fruta = alimento;
+  var libreta = apuntes;
+
+  if (Dia) {
+    console.log("Semana llovera")
+  } else {
+    console.log("No llovera")
+    
+  };
+  if (rojo) {
+    console.log("El auto se ve bonito")
+    
+  } else {
+    console.log("El auto no esta bonito")
+  };
+  if (Alimento) {
+    console.log("La fruta es comida")
+    
+  } else {
+    console.log("La frutta no es comida")
+  };
+  if (Apuntes) {
+    console.log("Tengo la libreta bien")
+  } else {
+    console.log("No tengo la libreta bien")
+  };
+
+
+  while (Fiesta) {
+  for ("Fiesta es el Martes");
+  }
+    if (Fiesta) {
+      console.log(Marte=Fiesta)
+      
+    }elfe;{
+      console.log("Habra fiesta")
+    }
+    
+  };
+
+  while (Dia) {
+  for ("Si llueve en el dia");
+  }
+    if (Llueve) {
+      console.log(Llueve=Dia)
+      
+    }elfe;{
+      console.log("No saldre")
+    }
+    
+  };
+
+  while (rojo) {
+  for ("El auto me gusta");
+  }
+    if (Auto) {
+      console.log(Auto=Rojo)
+      
+    }elfe;{
+      console.log("No me gusta el auto")
+    }
+    
+  };
+
+  while (fruta) {
+  for ("Comeremos rico");
+  }
+    if (Alimento) {
+      console.log(Alimento=fruta)
+      
+    }elfe;{
+      console.log("Habra comida")
+    }
+    
+  };
+
+  while (Apuntes) {
+  for ("Pasare la materia");
+  }
+    if (Apuntes) {
+      console.log(libreta=apuntes)
+      
+    }elfe;{
+      console.log("No pasare la materia")
+    }
+    
+  };
+
+  switch (Libtreta) {
+    case apuntes:{
+      console.log(apuntes="")
+    }
+      break;{
+        if (condition) {
+          console.log("Paso la materia")
+          
+        } else {
+           console.log("No paso la materia")
+        }
+       
+      }
+  };
+  
+  switch (Auto) {
+    case Auto:{
+      console.log(Rojo="")
+    }
+      break;{
+        if (rojo) {
+          console.log("Me gusta el auto")
+          
+        } else {
+           console.log("No me gusta el auto")
+        }
+       
+      }
+  };
+  
+  switch (LLuvia) {
+    case Lluvia:{
+      console.log(Fiesta="")
+    }
+      break;{
+        if (Fiesta) {
+          console.log("Como pastl")
+          
+        } else {
+           console.log("No como pastel")
+        }
+       
+      }
+  };
+  
+  switch (fruta) {
+    case fruta:{
+      console.log(Alimento="")
+    }
+      break;{
+        if (fruta) {
+          console.log("Comeremos fruta")
+          
+        } else {
+           console.log("No comeremos fruta")
+        }
+       
+      }
+  };
+
+
+
+
+
+
+</script>
