@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>  
+        
+// var Nombres=["Fernanda","Camila","Maria","Aggle","Lupitha","Lore","Daniela","Elena","Emily","Abigail","Karen","Sophia","Isabell","Ema","Anabel","Alex","Samuel","Fernando","Arturo","Francisco","German","Antonio","Jesus","Diego","Oscar","Carlos","Nthanael","Mario","Dilan","Eliseo"]
+// var Apellidos=["Torres","Garcia","Gonzales","Juarisco","Gomez"]
+// function Personas() {
+//     let Nombres = nombre[getRandoms(0,Nombres.lenght-1)];
+//     let apellido = apellidos[getRandoms(0,Apellidos-1)];
+//     let edad =  getRandoms(1,30);
+//     if (getRandoms(0,1)== 0){
+//         var sexo = "Hombre"
+        
+//     } else {
+//         var sexo = "Mujer"
+        
+//     }
+//     let codigoNuevo = generarCodigo(30);
+//     let persona = {
+//         nombre: nombreNuevo,
+//         apellido: apellidoNuevo,
+//         edad: edadNuevo,
+//         sexo: sexoNuevo,
+//         codigo: codigNuevo
+//     }
+//     return persona;
+//     function generarCodigo(n){
+//     let cadena = "";
+//     for (var i = 0; i < n; i++) {
+//         cadena = cadena + letras[getRandoms(0,letras.length-1)];
+//     }
+//     return cadena;
+// }
+
+// // var miSaludo = saludar();
+// // function saludar(){
+// //     return "Hola";
+// }
+    
+// }
+
+        
+
+// function numeroAleatorio(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// console.log(getRandomNombres)
+
+let Multiplicacion = prompt()
+for (let i= 0; i <=10;+i++) {
+    console.log("La multiplicacion de"+i+"Por"+" el resultado es"+Multiplicacion*i)
+    
+}
+            
+        
+
+    </script>
+    
+</body>
+</html>
